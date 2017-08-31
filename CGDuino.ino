@@ -65,7 +65,6 @@ void loop() {
 
 #This is a MATRIX FREE conjugate gradient method, wich means that you don't have to compute a matrix X. instead you have function or, a pattern that is repeated on the diagonal (N diagonal sparse matrices).
 #As an example, this method can be used to solve the discrete poisson matrix for heat propagation: https://en.wikipedia.org/wiki/Discrete_Poisson_equation
-#Since cant get every NxN diagonal matrix for free, we don't need to store the matrix in memory thus it can be used on a arduino.
 #Have fun!
 
 */
